@@ -1,0 +1,93 @@
+/* body{
+  background-image: url('https://hatrabbits.com/wp-content/uploads/2017/01/random-word-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+} */
+/* h1{
+  color: blue
+}
+.web{
+  height: 500px;
+  width: 500px;
+  background-image: url("https://media.moddb.com/images/members/5/4550/4549205/duck.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  color: green;
+  font-weight: 600;
+  border: 1px solid yellow;
+  font-size: 14px;
+  background-color: brown;
+}
+.blue {
+  color: blue !important;
+}
+#first-heading {
+  color: green;
+}
+
+iframe{
+  border: none;
+} */
+
+*{
+  text-align: center;
+}
+h1{
+  color:brown;
+  background-color: black;
+}
+
+/* .first{
+  color: blue;
+} */
+#second{
+  color: orchid;
+}
+
+/* div p{
+  color: green;
+} */
+
+div > p{
+  color: red;
+}
+
+div ~ p{
+  color: gold;
+}
+
+a{
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blanchedalmond;
+}
+a:visited{
+  color: rgb(134, 137, 134);
+}
+p::before{
+  content: "😀";
+}
+p:after{
+  content: "😀";
+}
+a[target]{
+  color: green;
+}
+.secondH{
+  color: hsl(20, 20, 20);
+  background-color: brown;
+}
+
+.border{
+  /* border-style: solid;
+  border-width: 12px;
+  border-color: green;
+  border-radius: 8px; */
+  border: 2px dashed red;
+}

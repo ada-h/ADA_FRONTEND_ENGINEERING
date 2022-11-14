@@ -7,104 +7,73 @@
     <meta name="keywords" content="frontend software enugustatetechhub" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/physical.css" />
     <link
       rel="icon"
       type="icon"
       href="data:image/png;base64,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"
     />
     <title>First Document</title>
-    <style>
-      /* h1 {
-        color: green;
-      } */
-    </style>
   </head>
   <body>
-    <h1>CSS Welcome</h1>
-    <p class="first">I am first</p>
-    <p id="second">I am second</p>
-
-    <div class="border">
-      <p>I am the first desc</p>
-      <p>I am the second descen</p>
-      <secion>
-        <p>I am the third desc</p>
-      </secion>
+    <div class="container">
+      <h1>I am the ultimate</h1>
+      <p>I am the only one</p>
+      <div class="circle"></div>
     </div>
-    <p>I am the sibling</p>
-    <p>I am the second sibmling</p>
 
-    <a href="https://www.google.com" target="_blank"> Click here</a>
-    <a href="https://www.google.com"> Google here</a>
-    <h2 class="secondH">I am the second heading</h2>
+    <!-- <h1 class="blue" style="color: yellow" id="first-heading">
+      This is the first heading
+    </h1>
+    <h2 id="second-heading">This is a subtitle</h2>
+    <h3>This is the sub subtitle</h3>
+    <p class="blue" style="color: green; font-size: 70px; font-weight: 700">
+      This is my first sentence
+    </p>
 
-    <!-- <form
-      action="/"
-      method="get"
-      autocomplete="off"
-      novalidate="off"
-      target="_blank"
+    <div class="blue">
+      I am a book
+      <span>I am not a book</span>
+    </div> -->
+    <!-- <figure>
+      <img
+        src="https://media.moddb.com/images/members/5/4550/4549205/duck.jpg"
+        alt=" A duck stuck with a bananna"
+        height="120px"
+        width="120px"
+      />
+      <figcaption>A duck stuck with a bananna</figcaption>
+    </figure> -->
+    <!-- <div class="web"><p>I am in the web section</p></div> -->
+    <!-- <video
+      controls
+      autoplay
+      loop
+      muted
+      poster="https://media.moddb.com/images/members/5/4550/4549205/duck.jpg"
     >
-      <label for="name"> Name</label>
-      <input type="text" value="Example" readonly />
-      <input type="text" value="Account Number" disabled />
-      <input type="text" placeholder="Last Name" />
-      <input type="checkbox" id="name" />
-      <input type="date" min="" max="" />
-      <label> </label>
-      <select></select>
-      <textarea></textarea>
-      <button></button>
-      <fieldset></fieldset>
-      <fieldset>
-        <legend><strong>Hobbies:</strong></legend>
-        <label for="reading" name="read">
-          <input
-            id="reading"
-            type="checkbox"
-            required
-            name="read"
-            class="inline"
-          />Reading</label
-        >
-        <label for="dancing" name="dance">
-          <input
-            id="dancing"
-            type="checkbox"
-            required
-            name="dance"
-            class="inline"
-          />Dancing</label
-        >
-        <label for="writing" name="write">
-          <input
-            id="writing"
-            type="checkbox"
-            required
-            name="write"
-            class="inline"
-          />Writing</label
-        >
-        <label for="eating" name="eat">
-          <input
-            id="eating"
-            type="checkbox"
-            required
-            name="eat"
-            class="inline"
-          />Eating</label
-        >
-      </fieldset>
-    </form>
-    <iframe
+      <source
+        src="https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.mp4"
+      />
+      <source
+        src="https://www.f5.com/content/dam/f5-labs-v2/media-files/video/Happy%20Cow.ogg"
+      />
+      <p>Your browser does not support this media</p>
+    </video>
+    <audio src="" controls autoplay loop></audio> -->
+    <!-- <iframe
       width="560"
       height="315"
-      src="https://www.youtube.com/embed/hVUaso9AKds"
+      src="https://www.youtube.com/embed/oM98UA5TqXw"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
+    ></iframe> -->
+    <!-- <iframe
+      width="500"
+      height="300"
+      src="https://docs.google.com/presentation/d/1y4BqqNsagGT-FSo9xkgLyLy0wu--So_PJ1vydMCdDUA/edit#slide=id.g172b52200f3_0_25"
     ></iframe> -->
   </body>
 </html>
