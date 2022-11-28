@@ -22,3 +22,38 @@ h1{
     outline-width: 10px; */
     outline: 10px double #27ae2d;
 }
+
+.transform{
+    height: 50px;
+    width: 50px;
+    background-color: #27ae2d;
+   
+}
+.transform:hover{
+    /* transform: rotate(30deg); */
+    transform: scale(3);
+}
+.transition{
+    height: 30px;
+    width: 50px;
+    background-color: black;
+    transition: height 1s;
+
+}
+.transition:hover{
+    height: 50px;
+}
+
+.animation{
+    background-color: #27ae2d;
+    animation: example 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    /* from{background-color: #27ae2d; color: yellow;}
+    to{background-color: yellow; color: green;} */
+    0%{background-color: #27ae2d; color: yellow}
+    50%{background-color: aqua; color: white};
+    100%{background-color: yellow; color: black}
+}
